@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_llamada">
+
+    <fragment
+        android:id="@+id/nav_llamada"
+        android:name="com.example.trabajopracticoanexoc.ui.llamada.LlamadaFragment"
+        android:label="@string/menu_llamada"
+        tools:layout="@layout/fragment_llamada" />
+
+    <fragment
+        android:id="@+id/nav_mercados"
+        android:name="com.example.trabajopracticoanexoc.ui.mercados.MercadosFragment"
+        android:label="@string/menu_mercados"
+        tools:layout="@layout/fragment_mercados" />
+
+</navigation>
